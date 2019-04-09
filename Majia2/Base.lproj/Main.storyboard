@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马甲包1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GH-JT-rSJ">
-                                <rect key="frame" x="177" y="438" width="60" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马甲包2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXe-mA-Ygw">
+                                <rect key="frame" x="176" y="437.5" width="62" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,14 +27,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0GH-JT-rSJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ped-fh-VFf"/>
-                            <constraint firstItem="0GH-JT-rSJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cZp-Cu-HFe"/>
+                            <constraint firstItem="IXe-mA-Ygw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Es-yA-C91"/>
+                            <constraint firstItem="IXe-mA-Ygw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="scX-3v-HXF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="mLable" destination="0GH-JT-rSJ" id="scz-uo-HXO"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

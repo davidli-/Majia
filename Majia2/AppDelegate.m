@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Majia
+//  Majia2
 //
 //  Created by Macmafia on 2019/4/9.
 //  Copyright © 2019 Macmafia. All rights reserved.
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    // Override point for customization after application launch.
     return YES;
 }
 

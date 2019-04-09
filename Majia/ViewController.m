@@ -10,13 +10,28 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *mLable;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+#ifdef DEBUG
+    //Debug
+    _mLable.text = @"DEBUG";
+#elif M_InHouse
+    //InHouse
+    _mLable.text = @"InHouse";
+#elif M_Release
+    //Release
+    _mLable.text = @"Release";
+#else
+    //Invalid
+    _mLable.text = @"默认值";
+#endif
 }
 
 
