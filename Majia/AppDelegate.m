@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+#if M_VAR == 0
+    NSLog(@"+++!!DEBUG M_VAR=0");
+#elif M_VAR == 1
+    NSLog(@"+++!!IN_HOUSE M_VAR=1");
+#elif M_VAR == 2
+    NSLog(@"+++!!RELEASE M_VAR=2");
+#endif
+    
     return YES;
 }
 

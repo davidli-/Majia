@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A05B8182268ABBA00946DF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A676DE9225CD3F40007693B /* Info.plist */; };
 		0A676DDD225CD3F20007693B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A676DDC225CD3F20007693B /* AppDelegate.m */; };
 		0A676DE0225CD3F20007693B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A676DDF225CD3F20007693B /* ViewController.m */; };
 		0A676DE3225CD3F20007693B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A676DE1225CD3F20007693B /* Main.storyboard */; };
@@ -155,7 +154,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A05B8182268ABBA00946DF8 /* Info.plist in Resources */,
 				0A676DE8225CD3F40007693B /* LaunchScreen.storyboard in Resources */,
 				0A676DE3225CD3F20007693B /* Main.storyboard in Resources */,
 			);
@@ -339,7 +337,10 @@
 				APP_BUNDLE_ID = com.m1;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"M_VAR=0",
+				);
 				INFOPLIST_FILE = Majia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -359,7 +360,10 @@
 				APP_NAME = Name3;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREPROCESSOR_DEFINITIONS = M_Release;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					M_Release,
+					"M_VAR=2",
+				);
 				INFOPLIST_FILE = Majia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +438,10 @@
 				APP_NAME = Name2;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREPROCESSOR_DEFINITIONS = M_InHouse;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					M_InHouse,
+					"M_VAR=1",
+				);
 				INFOPLIST_FILE = Majia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
